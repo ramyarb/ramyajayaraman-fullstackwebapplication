@@ -1,0 +1,42 @@
+{
+  "name": "restaurant-master-db",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/admin": "^4.8.2",
+    "@strapi/plugin-content-manager": "^4.8.2",
+    "@strapi/plugin-email": "^4.8.2",
+    "@strapi/plugin-graphql": "^4.8.2",
+    "@strapi/plugin-i18n": "4.8.2",
+    "@strapi/plugin-upload": "^4.8.2",
+    "@strapi/plugin-users-permissions": "4.8.2",
+    "@strapi/strapi": "4.8.2",
+    "@strapi/utils": "^4.8.2",
+    "@stripe/react-stripe-js": "1.1.2",
+    "@stripe/stripe-js": "1.5.0",
+    "better-sqlite3": "8.0.1",
+    "knex": "^2.4.2",
+    "lodash": "^4.17.21",
+    "strapi-hook-bookshelf": "^3.0.0-beta.17.8",
+    "strapi-hook-knex": "^3.0.0-beta.17.8",
+    "stripe": "^11.16.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "a65e9e1a-c296-43dc-ba05-196295ff4965"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
